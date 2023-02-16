@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(47, 44, 44);
+    color: rgb(255, 225, 0);
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.navbar{
+    display: flex;
+ list-style: none;
+}
+.nav{
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 238, 0);
+}
+a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+}
+.form{
+    z-index: 900;
+    margin-top: 150px;
+    
+}
+input[type=text],select{
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    justify-content: center;
+    display: grid;
+
+}
